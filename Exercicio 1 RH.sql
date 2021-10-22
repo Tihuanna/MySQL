@@ -22,6 +22,6 @@ select nome, salario from tb_funcionarios where salario > 2000;
 
 select nome, salario from tb_funcionarios where salario <2000;
 
-update tb_funcionarios set salario = 3000;
+update tb_funcionarios set salario = 3000 where id = 1;
 
 SET SQL_SAFE_UPDATES = 0;
